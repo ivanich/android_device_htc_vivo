@@ -90,6 +90,7 @@ enum ion_heap_ids {
 /**
  * Flag to use when allocating to indicate that a heap is secure.
  */
+#define ION_FLAG_CACHED 1
 #define ION_SECURE (1 << ION_HEAP_ID_RESERVED)
 
 /**
